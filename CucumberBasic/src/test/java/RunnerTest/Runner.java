@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 
-@CucumberOptions(features = "src/main/resources/Featurefile/LoginPractise.feature", glue = "stepdefinition")
+@CucumberOptions(features = "src/main/resources/Featurefile/Loginwithparameter.feature", glue = "stepdefinition")
 
 
 public class Runner {
